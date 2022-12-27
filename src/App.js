@@ -1,5 +1,6 @@
 import logo from "./logo.svg";
 import "./App.css";
+import Login from "./component/Login";
 
 function App() {
   const a = 5;
@@ -27,6 +28,7 @@ function App() {
         <h1 data-testid="testid">Hello Me</h1>
         <span title="sum">{a + b}</span>
       </header>
+      <Login />
     </div>
   );
 }

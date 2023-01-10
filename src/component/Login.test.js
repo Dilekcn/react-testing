@@ -30,3 +30,9 @@ test("Error message should not be visible", () => {
   const error = screen.getByTestId("error");
   expect(error).not.toBeVisible();
 });
+
+test("username input should be empty", () => {
+  render(<Login />);
+  const usernameInputEl = screen.getByPlaceholderText(/username/i);
+  expect(usernameInputEl.value).toBe("");
+});

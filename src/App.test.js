@@ -1,7 +1,7 @@
 import { render, screen } from "@testing-library/react";
 import App from "./App";
 
-// Wallaby.js start
+// Wallaby.js start extantion
 
 test("renders learn react link", () => {
   render(<App />);
